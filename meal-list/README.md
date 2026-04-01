@@ -1,7 +1,7 @@
 # meal-list
 
 ## About
-This is a simple `useContext` API project featuring a vertical list of meals.
+This is a simple `useContext` API project featuring a list of meals displayed in a column.
 
 ## Project Features:
  - `Map()` function for the assigned object iteration.
