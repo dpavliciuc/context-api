@@ -16,10 +16,10 @@ This is a practice workspace for context API along with other API's.
 
 ## Step 3 Installing the project
 
-- Check if `npm` is isntalled by runnign `npm --version` then install the project by executing `npm install`.
+- Check if `npm` is installed by running `npm --version` then install the project by executing `npm install`.
 
 ## Step 4 Running the project
 
 - Run the project by executing `npm start`.
 
-**Note:** The projects are owned by me and are open source projects. The I do not own ownership of images and other assets.
+**Note:** The projects are owned by me and are open source projects. I do not own ownership of images and other assets.
