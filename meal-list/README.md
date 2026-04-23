@@ -23,3 +23,4 @@ This is a simple `useContext` API project featuring a list of meals displayed in
 
 `const {meals, setMeals} = useCardContext();`
 
+<img width="998" height="909" alt="Screenshot from 2026-04-23 19-08-53" src="https://github.com/user-attachments/assets/e8416d70-ffa8-43fb-992c-eb958426427d" />
