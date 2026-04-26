@@ -1,0 +1,36 @@
+@import "tailwindcss";
+@source "../../.flowbite-react/class-list.json";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+.el1 {
+   @apply flex flex-row items-center mb-5;
+}
+
+.el2 {
+    @apply flex flex-row items-center gap-10;
+}
+
+.usercards {
+    @apply border w-25 h-25 p-5 rounded-lg;
+}
+
+.usercards2 {
+    @apply h-20 w-auto;
+}
+
+@media (max-width: 760px) {
+    .el1{
+        @apply flex-none flex-col items-center text-center mb-5;
+    }
+    .el2 {
+        @apply flex flex-col items-center gap-5;
+    }
+    .usercards
+     {
+         @apply border w-16 h-16 p-2 rounded-lg;
+    }
+    .usercards2 {
+           @apply h-full w-full object-contain;
+    }
+}

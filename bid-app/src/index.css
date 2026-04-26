@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%
+}
+
+@layer components {
+
+.nav-links {
+  @apply flex list-none m-0 p-0 gap-8;
+}
+
+
+
+  .nav-links li button, .links li {
+ @apply text-black no-underline font-medium hover:underline cursor-pointer;
+}
+
+    .card {
+        @apply m-10 rounded-lg bg-white px-6 py-10 w-80 shadow-xl ring-1 ring-slate-900/5;
+    }
+
+    .desc {
+      @apply bg-washedblue;
+    }
+
+    .notifstyle {
+      @apply text-2xl text-white text-center;
+    }
+
+
+@media (max-width: 760px) {
+  .nav-links {
+    display: none;
+  }
+  .card {
+    @apply w-25 px-2 py-2 m-1;
+  }
+  .desc {
+    @apply bg-white text-center w-full;
+  }
+  .placingbidstyle {
+    @apply flex flex-col items-center bg-washedblue;
+  }
+
+  .notifstyle {
+    @apply text-lg;
+  }
+}
+}
+
+@theme {
+
+ --color-washedblue: #E1EFFF;
+ --color-pointblue: #d1e6ff;
+
+}
+
+@utility flex-col-j-center {
+  
+  @apply flex flex-col justify-center;
+}
+
+@utility flex-col-i-center {
+  @apply flex flex-col items-center;
+}
+
+@utility flex-col-i-j-center {
+  @apply flex flex-col items-center justify-center;
+}
+
+@utility flex-col-j-start {
+  @apply flex flex-col justify-start;
+}
+@utility flex-col-i-j-start {
+  @apply flex flex-col items-start justify-start;
+}
+
+@utility flex-i-j-center {
+  @apply flex items-center justify-center;
+}
+
+@layer base {
+  body {
+  font-family: "Karla", sans-serif;
+  }
+}
+
+@keyframes shrink {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0%;
+  }
+}
+
+
+
+.animate-shrink {
+  animation-name: shrink;
+}

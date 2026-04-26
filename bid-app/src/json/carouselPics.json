@@ -1,0 +1,22 @@
+[
+  {
+    "src": "https://flowbite.com/docs/images/carousel/carousel-1.svg",
+    "alt": "Beautiful landscape"
+  },
+  {
+    "src": "https://flowbite.com/docs/images/carousel/carousel-2.svg",
+    "alt": "Modern city"
+  },
+  {
+    "src": "https://flowbite.com/docs/images/carousel/carousel-3.svg",
+    "alt": "Mountain view"
+  },
+  {
+    "src": "https://flowbite.com/docs/images/carousel/carousel-4.svg",
+    "alt": "Ocean sunset"
+  },
+  {
+    "src": "https://flowbite.com/docs/images/carousel/carousel-5.svg",
+    "alt": "Forest path"
+  }
+]

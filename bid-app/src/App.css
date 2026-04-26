@@ -1,0 +1,83 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+@tailwind utilities;
+
+@theme {
+  --color-washedblue: #E1EFFF;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+
+@layer utilities {
+  .layout {
+    @apply flex flex-col;
+    flex-grow: 1;
+  }
+
+  .bidsectionstyle {
+    @apply bg-washedblue w-full flex flex-col items-center;
+  }
+
+  .right-col {
+    @apply flex flex-col gap-4;
+  }
+
+  .flex-col-j-center {
+    @apply flex flex-col justify-center;
+  }
+
+  .flex-col-i-center {
+    @apply flex flex-col items-center;
+  }
+
+  .flex-col-i-j-center {
+    @apply flex flex-col items-center justify-center;
+  }
+
+  .flex-col-j-start {
+    @apply flex flex-col justify-start;
+  }
+
+  .flex-col-i-j-start {
+    @apply flex flex-col items-start justify-start;
+  }
+
+  .flex-i-j-center {
+    @apply flex items-center justify-center;
+  }
+
+  @media (min-width: 761px) {
+    .bidsectionstyle {
+      @apply flex-row items-start justify-center mt-5;
+    }
+  }
+
+@media (max-width: 760px) {
+  .userbids-wrapper { order: 2; }
+  .right-col        { order: 3; flex-direction: column-reverse; }
+  .about-wrapper    { order: 4; } /* remove flex-grow: 1 and flex display */
+  .footer-wrapper   { display: none; }
+
+  .layout {
+    flex-grow: 1;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+  .right-col {
+    @apply gap-0 m-0 p-0;
+  }
+   .bidsectionstyle {
+    @apply bg-white;
+  }
+}
+}

@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../../.flowbite-react/class-list.json";
+@tailwind utilities;
+
+@theme {
+  --color-washedblue: #E1EFFF;
+}
+
+.inputstyle {
+    @apply caret-blue-500 w-full text-xl px-4 text-end py-1 border border-gray-300 rounded-2xl focus:ring-2 focus:ring-blue-500 focus:border-transparent bg-white outline-none [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none;
+}
+
+.carouselstyle {
+    @apply mx-8 my-8 max-w-4xl h-140 rounded-2xl overflow-hidden shadow-2xl;
+}
+
+
+.termsstyle {
+    @apply text-blue-600 hover:text-blue-800 hover:underline transition-colors;
+}
+
+.timercrown {
+    @apply mr-5;
+}
+
+.placebid {
+    @apply block text-2xl text-center font-medium mb-20  mt-10;
+}
+
+@media (max-width: 640px) {
+    .carouselstyle {
+        @apply w-full m-0 mb-0 rounded-none h-60 py-0 shadow-none overflow-hidden;
+    }
+    
+    .bidsectionstyle {
+        @apply my-2 rounded-none w-full;
+    }
+    .timercrown {
+        @apply ml-5;
+    }
+    .placebid {
+    @apply block text-xl text-center font-medium mb-5 mt-5;
+    }
+}

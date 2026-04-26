@@ -1,0 +1,23 @@
+[
+
+{
+    "id": 1,
+    "name": "John Doe",
+    "money": 0
+
+},
+
+{
+    "id": 2,
+    "name": "Jane Doe",
+    "money": 0
+
+},
+
+{
+    "id": 3,
+    "name": "You",
+    "money": 0
+}
+
+]

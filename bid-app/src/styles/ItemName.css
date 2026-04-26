@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@import "flowbite-react/plugin/tailwindcss";
+@source "../../.flowbite-react/class-list.json";
+@tailwind utilities;
+
+.itemstyle {
+    @apply relative inline-block text-3xl font-semibold text-black pb-3.5 selection:bg-[#e0c25e];
+}
+
+@media (max-width: 760px) {
+    .itemstyle {
+        @apply text-2xl font-bold mb-2; 
+    }
+}

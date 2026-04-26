@@ -1,0 +1,12 @@
+{
+   "control": {
+      "base": "bg-washedblue dark:bg-washedblue group-hover:bg-pointblue! dark:group-hover:bg-pointblue! group-focus:outline-none group-focus:ring-0 sm:h-10 sm:w-10",
+      "icon": "h-5 w-5 text-black dark:text-black sm:h-6 sm:w-6"
+    },
+  "indicators": {
+    "active": {
+      "off": "bg-white hover:bg-pointblue dark:bg-white dark:hover:bg-pointblue",
+      "on": "bg-pointblue dark:bg-pointblue"
+    }
+  } 
+  }
