@@ -22,4 +22,4 @@ This is a practice workspace for context API along with other API's.
 
 - Run the project by executing `npm start`.
 
-**Note:** The projects are owned by me and are open source projects. I do not own ownership of images and other assets.
+**Note:** The projects are owned by me and are open source projects. I do not own ownership of images and other assets that are not mine.
