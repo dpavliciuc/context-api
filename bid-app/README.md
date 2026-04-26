@@ -20,11 +20,13 @@ This project is a bidding application created by me. The main feature of the app
 1. Creating wireframes
 2. Turning wireframes into mockups
 3. Prototyping
-
+<img width="540" height="862" alt="Screenshot from 2026-04-13 09-55-08" src="https://github.com/user-attachments/assets/891efdd8-5f93-4577-bba9-4f153f65f54f" />
 4. Bringing the prototype to life using Vite + React
+<img width="1828" height="956" alt="Screenshot from 2026-04-26 22-38-14" src="https://github.com/user-attachments/assets/dae7c8f9-2734-47f3-9c55-12bd6bfe535b" />
+<img width="404" height="856" alt="Screenshot from 2026-04-26 22-35-53" src="https://github.com/user-attachments/assets/4a8eb900-6961-40ac-bf8c-e0fa8379c967" />
 
 
-##Note
+## Note
 
 The logos were made by me, and the edited icons were created using Affinity.
 
